@@ -1,5 +1,15 @@
-# Requires Windows ADK and WinPE Add-on for ADK installed.
-# Must be run from an Administrator PowerShell session.
+<#
+.SYNOPSIS
+    Automated WinPE/WinRE Live ISO Builder with GUI, Wi-Fi Auto-Connect,
+    Explorer++, Nmap, and Wireshark.
+.NOTES
+    Run as Administrator with Windows ADK installed.
+    Requires Windows ADK and WinPE Add-on for ADK installed.
+    Must be run from an Administrator PowerShell session.
+
+Created by Mikael Palmqvist, 2026-07-23 version 0.5
+
+#>
 
 Reminders Before Running
 Npcap Drivers: Place your extracted Npcap files (⁠npcap.inf⁠, ⁠npcap.sys⁠, ⁠npcap.cat⁠) into ⁠C:\Npcap_Driver⁠ beforehand.
