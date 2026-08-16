@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Automated WinPE/WinRE Live ISO Builder with GUI, Wi-Fi Auto-Connect,
+    Automated WinPE Live ISO Builder with GUI, Wi-Fi Auto-Connect,
     Explorer++, Nmap, and Wireshark.
 .NOTES
     Run as Administrator with Windows ADK installed.
