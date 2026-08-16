@@ -7,7 +7,7 @@
     Requires Windows ADK and WinPE Add-on for ADK installed.
     Must be run from an Administrator PowerShell session.
 
-Created by Mikael Palmqvist, 2026-07-23 version 0.5
+Created by Mikael Palmqvist, 2026-08-16 version 0.1
 
 #>
 
