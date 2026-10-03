@@ -1,0 +1,11 @@
+sudo apt update && sudo apt upgrade -y
+cargo install --git https://gitlab.torproject.org/tpo/core/oniux oniux
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+modprobe tun
+
+# Test oniux:
+oniux curl https://icanhazip.com
+
+# Access union service:
+oniux curl http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/index.html
+
